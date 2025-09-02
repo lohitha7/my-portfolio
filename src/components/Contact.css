@@ -1,0 +1,44 @@
+.contact-container {
+  min-height: 100vh; /* ensures full-screen section */
+  padding: 60px 40px;
+  background-color: rgba(15, 25, 50, 0.9);
+  color: #e0e0e0;
+}
+
+.back-btn {
+  background-color: #1f4068;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.back-btn:hover {
+  background-color: #3a539b;
+}
+
+.contact-card {
+  background-color: #1f4068;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 15px 0;
+}
+
+.contact-card h4 {
+  margin: 0 0 8px 0;
+}
+
+.contact-card a {
+  color: #66b2ff;
+  text-decoration: none;
+}
+
+.contact-card a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin: 8px 0;
+}

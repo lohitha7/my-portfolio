@@ -1,0 +1,30 @@
+/* Skills.css */
+.skills-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d1b33;
+  padding: 40px;
+}
+
+.skills-card {
+  background-color: rgba(0, 119, 204, 0.85);
+  padding: 30px 40px;
+  border-radius: 12px;
+  color: #fff;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  text-align: left;
+}
+
+.skills-card h2 {
+  margin-bottom: 20px;
+  color: #ffcc00;
+}
+
+.skills-card p {
+  margin-bottom: 12px;
+  font-size: 16px;
+}

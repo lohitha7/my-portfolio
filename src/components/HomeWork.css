@@ -1,0 +1,186 @@
+/* ================= Base & Reset ================= */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Segoe UI", sans-serif;
+background: linear-gradient(135deg, #0B3D91, #1E5F99, #0B3D91, #1E5F99);
+
+
+  background-size: 400% 400%;
+  animation: gradientMove 20s ease infinite;
+  color: #e0e0e0;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* ================= Home Section ================= */
+.home-section {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.portfolio-logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffffcc;
+}
+
+/* ================= Home Container ================= */
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  width: 90%;
+  gap: 50px;
+}
+
+/* ================= Left Content ================= */
+.home-left {
+  flex: 1;
+}
+
+.hello-text {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #f0f0f0;
+  min-height: 60px;
+}
+
+.home-left p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 12px 0;
+  color: #d0d0d0;
+}
+
+/* ================= Right Vertical Boxes ================= */
+.home-right-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: flex-end;
+}
+
+.vertical-box {
+  background-color: #2f1f68;
+  padding: 14px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  width: 150px;
+  animation: floatUpDown 2s ease-in-out infinite alternate;
+}
+
+.vertical-box:hover {
+  background-color: #3a539b;
+}
+
+.vertical-box a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@keyframes floatUpDown {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0); }
+}
+
+/* ================= Work Section ================= */
+.work-section {
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(15, 25, 50, 0.8);
+}
+
+.work-intro p {
+  text-align: center;
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+.work-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 1000px;
+  width: 90%;
+}
+
+.work-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.work-item.left { flex-direction: row; }
+.work-item.right { flex-direction: row-reverse; }
+
+.square-card {
+  width: 120px;
+  height: 120px;
+  background-color:  #1E5F99;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  cursor: pointer;
+  transition: transform 0.3s, background-color 0.3s;
+  color: #fff;
+}
+
+.square-card:hover {
+  transform: translateY(-10px);
+  background-color: #4A90E2;
+}
+
+.work-text {
+  max-width: 400px;
+  font-size: 16px;
+  color: #e0e0e0;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 90px 40px;   /* increase top and bottom padding */
+  min-height: 80vh;     /* make it take more vertical space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 20px;            /* space between content lines */
+}
+
+.contact-box {
+  background-color: #1f4068;
+  padding: 20px 30px;
+  border-radius: 12px;
+  display: inline-block;
+  margin: 10px;
+  min-width: 250px;     /* optional: make box bigger horizontally */
+}
+
+.contact-section a {
+  color: #66b2ff;
+  text-decoration: none;
+  font-size: 18px;
+}

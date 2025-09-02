@@ -1,0 +1,62 @@
+/* Background shared for whole page */
+.home-page {
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+  color: #333;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  padding: 40px 60px;
+}
+
+/* Intro Layout */
+.intro-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 60px 0;
+}
+
+.intro-left {
+  flex: 1;
+}
+
+.intro-left h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.intro-left p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.resume-box {
+  margin-top: 20px;
+}
+
+.resume-box a {
+  background: #007bff;
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.resume-box a:hover {
+  background: #0056b3;
+}
+
+/* Right-side image */
+.intro-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.intro-img {
+  max-width: 350px;
+  height: auto;
+}
