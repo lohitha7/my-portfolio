@@ -57,7 +57,7 @@ export default function HomeWork() {
 
           <div className="home-right-vertical">
             <div className="vertical-box">
-              <a href="https://drive.google.com/file/d/1BJMQQxG_KUHx3MdEBIcBAP7rBDRwdZ3h/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Resume</a>
+              <a href="https://drive.google.com/file/d/1CPzso5C5zVohoVHfPrGh_D8zYGdNGnnA/view?usp=drive_link" target="_blank" rel="noopener noreferrer">Resume</a>
             </div>
             <div className="vertical-box">
               <a href="https://github.com/lohitha7" target="_blank" rel="noopener noreferrer">GitHub</a>
