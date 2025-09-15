@@ -4,9 +4,7 @@ body, html {
   padding: 0;
   height: 100%;
   font-family: "Segoe UI", sans-serif;
-background: linear-gradient(135deg, #0B3D91, #1E5F99, #0B3D91, #1E5F99);
-
-
+  background: linear-gradient(135deg, #0B3D91, #1E5F99, #0B3D91, #1E5F99);
   background-size: 400% 400%;
   animation: gradientMove 20s ease infinite;
   color: #e0e0e0;
@@ -83,7 +81,7 @@ background: linear-gradient(135deg, #0B3D91, #1E5F99, #0B3D91, #1E5F99);
   text-align: center;
   cursor: pointer;
   width: 150px;
-  animation: floatUpDown 2s ease-in-out infinite alternate;
+  /* Removed animation to stop movement */
 }
 
 .vertical-box:hover {
@@ -93,12 +91,6 @@ background: linear-gradient(135deg, #0B3D91, #1E5F99, #0B3D91, #1E5F99);
 .vertical-box a {
   color: #fff;
   text-decoration: none;
-}
-
-@keyframes floatUpDown {
-  0% { transform: translateY(0); }
-  50% { transform: translateY(-15px); }
-  100% { transform: translateY(0); }
 }
 
 /* ================= Work Section ================= */
@@ -160,14 +152,14 @@ background: linear-gradient(135deg, #0B3D91, #1E5F99, #0B3D91, #1E5F99);
 
 /* Contact Section */
 .contact-section {
-  padding: 90px 40px;   /* increase top and bottom padding */
-  min-height: 80vh;     /* make it take more vertical space */
+  padding: 90px 40px;
+  min-height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   flex-direction: column;
-  gap: 20px;            /* space between content lines */
+  gap: 20px;
 }
 
 .contact-box {
@@ -176,7 +168,7 @@ background: linear-gradient(135deg, #0B3D91, #1E5F99, #0B3D91, #1E5F99);
   border-radius: 12px;
   display: inline-block;
   margin: 10px;
-  min-width: 250px;     /* optional: make box bigger horizontally */
+  min-width: 250px;
 }
 
 .contact-section a {
