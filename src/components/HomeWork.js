@@ -45,13 +45,7 @@ export default function HomeWork() {
         <div className="home-container">
           <div className="home-left">
            <h1 className="hello-text">{typedText}</h1>
-
-<p>
-  I'm a Master's student in Computer Science at Wright State University in Ohio. Expected graduation between Dec 2026 and May 2027.
-</p>
-<p>
-  I have worked on React projects, Machine Learning projects, and Databases. I'm eager to learn more about AI and ML. Certifications prove my dedication, and hackathon participation shows I'm a hard worker who enjoys learning and improving through coding.
-</p>
+<p> I am a Master's student in Computer Science at Wright State University, Ohio, graduating between December 2026 and May 2027. I have experience in React, Machine Learning, and Databases, and I am eager to expand my knowledge in AI and ML. I code every day and believe in kaizen—continuous improvement through learning and practice. </p>
 
           </div>
 
