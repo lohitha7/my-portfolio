@@ -13,7 +13,7 @@ const Projects = ({ setActiveSection }) => {
       ]
     },
     {
-      title: "Information Retrieval System (CS 7800 – Assignment 1)",
+      title: "Information Retrieval System",
       date: "Spring 2025",
       details: [
         "Implemented Boolean retrieval and custom TF-IDF vectorization with modified IDF.",
@@ -23,7 +23,7 @@ const Projects = ({ setActiveSection }) => {
       ]
     },
     {
-      title: "Document Classification with Machine Learning (CS 7800 – Assignment 2)",
+      title: "Document Classification with Machine Learning ",
       date: "Spring 2025",
       details: [
         "Classified documents using k-Nearest Neighbors (kNN) and Support Vector Machine (SVM).",

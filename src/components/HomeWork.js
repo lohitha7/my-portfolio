@@ -87,19 +87,19 @@ export default function HomeWork() {
         <div className="work-content">
           <div className="work-item left">
             <div className="square-card" onClick={() => setActiveSection("projects")}>📁</div>
-            <div className="work-text">Projects I have done in ML, React, and Databases.</div>
+            <div className="work-text">View My Projects in React, Machine Learning, and More</div>
           </div>
           <div className="work-item right">
             <div className="square-card" onClick={() => setActiveSection("publications")}>📄</div>
-            <div className="work-text">Publications and papers in AI and CS domains.</div>
+            <div className="work-text">Explore my Publications and papers .</div>
           </div>
           <div className="work-item left">
             <div className="square-card" onClick={() => setActiveSection("certificates")}>🎓</div>
-            <div className="work-text">Certifications in React, ML, and Cloud technologies.</div>
+            <div className="work-text">my certifications so far.</div>
           </div>
           <div className="work-item right">
             <div className="square-card" onClick={() => setActiveSection("skills")}>🛠️</div>
-            <div className="work-text">Skills: Python, React, Node.js, AWS, Git, MySQL, MongoDB.</div>
+            <div className="work-text">Skills: Python, React, Node.js, AWS, MongoDB.</div>
           </div>
           <div className="work-item left">
             <div className="square-card" onClick={() => setActiveSection("experience")}>💼</div>
