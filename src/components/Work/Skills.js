@@ -9,7 +9,7 @@ export default function Skills() {
         <p><strong>Languages & Frameworks:</strong> Python, React, JavaScript, Node.js</p>
         <p><strong>Cloud Platforms:</strong> AWS</p>
         <p><strong>DevOps & Tools:</strong> Git, VS Code</p>
-        <p><strong>Databases:</strong> MySQL, MongoDB</p>
+        <p><strong>Databases:</strong>  MongoDB</p>
       </div>
     </div>
   );
